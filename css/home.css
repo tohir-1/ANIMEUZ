@@ -1,0 +1,15 @@
+.hero{position:relative;min-height:540px;margin-top:-68px;overflow:hidden}
+.slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .8s,visibility .8s;background-size:cover;background-position:center;display:flex;align-items:center}
+.slide.active{opacity:1;visibility:visible}
+.slide::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,11,20,.95) 8%,rgba(8,11,20,.55) 60%,rgba(8,11,20,.2)),linear-gradient(0deg,var(--bg),transparent 30%)}
+.slide-in{position:relative;display:flex;justify-content:space-between;align-items:center;gap:30px;padding:100px 0 70px;color:#fff}
+.slide-txt{max-width:600px}.slide-txt h1{font-size:clamp(2rem,6vw,3.6rem);margin:14px 0}
+.slide-txt p{color:#cbd5e1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:22px}
+.hero-poster{display:none;width:230px;border-radius:20px;box-shadow:0 20px 60px rgba(139,92,246,.45);transform:rotate(3deg)}
+.h-arr{position:absolute;top:50%;z-index:3;width:44px;height:44px;border-radius:50%;background:rgba(8,11,20,.55);color:#fff;font-size:1.6rem;display:none}.h-arr.l{left:14px}.h-arr.r{right:14px}.h-arr:hover{background:var(--p)}
+.dots{position:absolute;bottom:22px;left:0;right:0;z-index:3;display:flex;justify-content:center;gap:8px}
+.dots button{width:10px;height:10px;border-radius:5px;background:rgba(255,255,255,.4);transition:width .3s,background .3s}.dots button.on{width:28px;background:var(--p)}
+.genre-tiles{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+.genre-tile{padding:22px 14px;border-radius:16px;text-align:center;font-weight:700;color:#fff;background:linear-gradient(135deg,hsl(var(--h),65%,38%),hsl(calc(var(--h) + 40),70%,22%));transition:transform .2s,box-shadow .2s}
+.genre-tile:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(139,92,246,.35)}
+.why{display:grid;gap:14px}.why-i{padding:22px;border-radius:18px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--p)}.why-i h3{margin-bottom:6px;font-size:1.05rem}

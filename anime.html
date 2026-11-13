@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Animelar katalogi — AnimeUZ</title><meta name="description" content="Barcha animelar: janr, yil, reyting va tur bo‘yicha filtrlang, qidiring va saralang.">
+<meta property="og:title" content="Animelar katalogi — AnimeUZ"><meta property="og:description" content="Barcha animelar: janr, yil, reyting va tur bo‘yicha filtrlang, qidiring va saralang."><meta property="og:type" content="website"><meta property="og:image" content="assets/logo/logo.svg">
+<link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/animations.css"><link rel="stylesheet" href="css/anime.css"><link rel="stylesheet" href="css/responsive.css"></head><body><div id="site-header"></div><main id="main">
+<div class="container section"><h1>Animelar katalogi</h1><p class="muted" id="count"></p>
+<div class="filters"><input type="search" id="q" placeholder="Nom, janr yoki yil bo‘yicha qidiring…" aria-label="Qidiruv" class="f-q">
+<select id="fg" aria-label="Janr"></select><select id="fy" aria-label="Yil"></select><select id="fr" aria-label="Reyting"></select><select id="ft" aria-label="Tur"></select><select id="fl" aria-label="Alifbo"></select>
+<select id="fs" aria-label="Saralash"><option value="popular">Eng mashhur</option><option value="rating">Eng yuqori reyting</option><option value="newest">Eng yangi</option><option value="az">A dan Z gacha</option></select>
+<button class="btn btn-ghost btn-sm" id="reset">Tozalash</button></div>
+<div class="grid" id="grid"></div><div class="center"><button class="btn" id="more">Ko‘proq yuklash</button></div></div></main><div id="site-footer"></div><script src="js/data.js"></script><script src="js/storage.js"></script><script src="js/utils.js"></script><script src="js/search.js"></script><script src="js/main.js"></script><script src="js/anime.js"></script></body></html>

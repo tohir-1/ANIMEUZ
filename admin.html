@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin (Demo) | ANIMEUZ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">ANIMEUZ</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Bosh sahifa</a>
+        <a href="catalog.html" class="nav-link">Animelar</a>
+        <a href="admin.html" class="nav-link active">Admin</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-btn">☀️</button>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="page-header">
+      <h1>Admin panel (Demo)</h1>
+      <p>Frontend-only demo. Haqiqiy himoyalangan admin tizimi emas. O'zgarishlar LocalStorage da saqlanadi.</p>
+    </div>
+    <div id="admin-list"></div>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>© 2026 ANIMEUZ</p></div></div></footer>
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

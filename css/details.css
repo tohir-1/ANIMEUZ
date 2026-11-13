@@ -1,0 +1,8 @@
+.d-banner{position:relative;margin-top:-68px;overflow:hidden}
+.d-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:blur(2px)}
+.d-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--bg) 4%,rgba(8,11,20,.72))}
+.d-wrap{position:relative;z-index:2;display:flex;flex-direction:column;gap:26px;padding:110px 0 40px;color:#fff;align-items:flex-start}
+.d-poster{width:200px;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.d-info .muted{color:#cbd5e1}.d-info .btns{margin-top:18px}.d-info .btn-ghost{color:#fff}.d-info .chip{color:#fff}
+.d-desc{max-width:80ch;margin:10px 0 22px}
+.info{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}.info div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}.info dt{font-size:.8rem}.info dd{font-weight:600}
